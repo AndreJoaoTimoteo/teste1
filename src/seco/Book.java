@@ -16,6 +16,7 @@ public class Book {
 		Book book2 = new Book(is);
 		
 		System.out.println(book1.equals(book2));
+		System.out.println(book1.hashCode()+" vs. "+book2.hashCode());
 	}
 
 	public String getIsbn() {
