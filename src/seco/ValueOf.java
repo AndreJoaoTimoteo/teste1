@@ -11,9 +11,17 @@ public class ValueOf {
 		Integer i = new Integer(125);
 		Integer j = i;
 		System.out.println(i==j);
+		
 		i++;
 		System.out.println("i = "+i+", j = "+j);
 		System.out.println(i==j);
+		
+		i--;
+		System.out.println("i = "+i+", j = "+j);
+		System.out.println(i==j);
+		System.out.println("i é "+((Object)i).toString()+" e j é "+((Object)j).toString());
+		
+		Object hurr = new Object();
+		System.out.println(hurr.toString());
 	}
-
 }
