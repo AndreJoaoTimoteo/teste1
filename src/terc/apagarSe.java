@@ -6,7 +6,7 @@ import java.util.function.Predicate;
 
 public class apagarSe {
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		List list = new ArrayList<>();
