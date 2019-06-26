@@ -1,8 +1,5 @@
 package terc;
 
-import java.lang.*;
-import java.io.*;
-
 public class forfor {
 
 	public static void main(String[] args) {
