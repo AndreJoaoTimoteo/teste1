@@ -8,6 +8,7 @@ public class SimulaFileNotFoundException {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		@SuppressWarnings("unused")
 		BufferedReader br = null;
 		
 		try {
