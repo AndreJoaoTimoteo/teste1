@@ -7,7 +7,7 @@ public class SimulaArithmeticException {
 		int valor1 = 10;
 		int valor2 = 0;
 		try {
-		System.out.println(valor1/valor2);
+			System.out.println(valor1/valor2);
 		} catch (ArithmeticException e) {
 			System.out.println("pls no dividerino by zerorino, kripperino");
 		}
